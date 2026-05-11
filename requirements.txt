@@ -1,0 +1,7 @@
+numpy
+faiss-cpu
+sentence-transformers
+torch
+pandas
+opencv-python
+

@@ -1,0 +1,7 @@
+Stage 2 MVP log:
+
+- Restoration uses the existing VSRNet video inference script when the repo, input video, and checkpoint are available.
+- Detection uses Ultralytics YOLO when installed.
+- Metrics are computed from detection CSV and available videos.
+- RAG retrieves local VSRNet project notes from the documents folder.
+- The final report is template-based and does not call an LLM API.

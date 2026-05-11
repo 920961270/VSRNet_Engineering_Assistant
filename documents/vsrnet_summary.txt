@@ -1,0 +1,5 @@
+VSRNet is a lightweight video restoration network designed for vibration-degraded monitoring videos.
+
+The project focuses on restoring video affected by physical vibration, rolling-shutter-like artifacts, and motion blur. It is intended for monitoring scenarios where stable visual evidence matters for later perception tasks.
+
+Stage 1 of this assistant did not run real VSRNet inference. Stage 2 attempts to wrap the existing local VSRNet inference script when the input video and checkpoint are available.

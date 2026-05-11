@@ -1,0 +1,66 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# IDE / OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Model weights and large ML artifacts
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.engine
+*.bin
+*.safetensors
+
+# Local data and generated outputs
+inputs/
+outputs/
+models/
+
+# Keep empty folder placeholders if needed
+!inputs/.gitkeep
+!outputs/.gitkeep
+!models/.gitkeep
+
+# Video / image outputs and datasets
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.gif
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tif
+*.tiff
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Jupyter
+.ipynb_checkpoints/

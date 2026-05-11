@@ -1,0 +1,5 @@
+Evaluation should include both image-quality metrics and perception-oriented stability metrics.
+
+Useful visual metrics include PSNR and SSIM when paired ground truth is available. Useful downstream metrics include jitter, IoU continuity, confidence variance, FPS, and inference time.
+
+Stage 2 computes feasible metrics from available videos and detection CSV files. Missing values should be reported honestly as unavailable rather than guessed.

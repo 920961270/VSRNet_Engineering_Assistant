@@ -1,0 +1,6 @@
+VSRNet uses a practical multi-frame restoration setting. The original repository includes sliding-window inference for frame sequences and full videos.
+
+The engineering workflow should treat restoration as one part of a larger closed loop: restore degraded video, evaluate visual quality, inspect downstream detection stability, and summarize what the metrics imply.
+
+Vibration intensity in the project is controlled by exposure proportion and displacement amplitudes. Larger beta values usually mean longer motion integration, while larger amplitudes mean stronger visible vibration.
+
